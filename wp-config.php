@@ -17,7 +17,7 @@
 $_SERVER['HTTPS'] = 'on';
 
 // ** Heroku Postgres settings - from Heroku Environment ** //
-$db = parse_url($_ENV["DATABASE_URL"] ? $_ENV["DATABASE_URL"] : "postgres://uyefqipydbhfvw:7b6492102aed080c8c207410c0f646e954a2f354e267f7d9bf017bfa744af8b9@ec2-184-73-197-211.compute-1.amazonaws.com:5432/dauj11jot64rge");
+$db = parse_url($_ENV["DATABASE_URL"]);
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */

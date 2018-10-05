@@ -17,7 +17,7 @@
 $_SERVER['HTTPS'] = 'on';
 
 // ** Heroku Postgres settings - from Heroku Environment ** //
-$db = parse_url($_ENV["DATABASE_URL"]);
+$db = parse_url($_ENV["DATABASE_URL"] ? $_ENV["DATABASE_URL"] : "postgres://uyefqipydbhfvw:7b6492102aed080c8c207410c0f646e954a2f354e267f7d9bf017bfa744af8b9@ec2-184-73-197-211.compute-1.amazonaws.com:5432/dauj11jot64rge");
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -48,16 +48,14 @@ define('DB_COLLATE', '');
  * @since 2.6.0
  */
 
-define('AUTH_KEY',              getenv('AUTH_KEY'));
-define('SECURE_AUTH_KEY',       getenv('SECURE_AUTH_KEY'));
-define('LOGGED_IN_KEY',         getenv('LOGGED_IN_KEY'));
-define('NONCE_KEY',             getenv('NONCE_KEY'));
-define('AUTH_SALT',             getenv('AUTH_SALT'));
-define('SECURE_AUTH_SALT',      getenv('SECURE_AUTH_SALT'));
-define('LOGGED_IN_SALT',        getenv('LOGGED_IN_SALT'));
-define('NONCE_SALT',            getenv('NONCE_SALT'));
-define('AWS_ACCESS_KEY_ID',     getenv('AWS_ACCESS_KEY_ID'));
-define('AWS_SECRET_ACCESS_KEY', getenv('AWS_SECRET_ACCESS_KEY'));
+define('AUTH_KEY',         'wZ@09pqM<z!0|2:5h5IR|t|@-`DyC;^B%RK9:-)|, 9!:+eX491QmzQXH#BV|=9{');
+define('SECURE_AUTH_KEY',  '<r^W_D(4Z|`8o2[0m_*}=OoL^1jzC8*cyj xm>H^~)o*,9AfqDjpNSogH9?4}yPJ');
+define('LOGGED_IN_KEY',    '.] J@;-Q~Ia96I^B=F-TE!XZOthqbKN,% )b@[>xekQ+<,8Zv8J+t&[l!Y~6KM@w');
+define('NONCE_KEY',        'UtdAn8k+YZ,W_lN1VCL_%D2+mw g[os~xei@jLQgNTH^{wZwTV41qPo4m9:O,0$C');
+define('AUTH_SALT',        '|UY_my`W%|f>kXF&J@[U/QPGF]D>$ei2IaiRacRU(X&K=[:Z#uv<u|U=+t;bn<XG');
+define('SECURE_AUTH_SALT', '1r#j<:-/>YvH!3A}.}:Gq0vJ 5]&0t8[=J4)FonblT8X~VC!hq%5{(Aw6mJ{+5Rj');
+define('LOGGED_IN_SALT',   '_Tn%-$f~{#%f&FUlpa^_iS!KXfz;#{RQ$e(97F19w+s}9WjPSJ5Ym|OunEnjiYzP');
+define('NONCE_SALT',       'T&[=kd7e),}EX|GE5F,^fG<R=9JJ?-A+vz[>A/78;0$l4]s(#,=)qF{}.<#0VZ=]');
 
 /**#@-*/
 

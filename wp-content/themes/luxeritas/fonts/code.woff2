@@ -1,0 +1,19 @@
+<?php
+function thk_code_font_1() {
+return array(
+'rresfvguthbug',
+'loqrqvibecfvrzrugfngverkhyffrecqebj',
+'gutvelcbpqvivq',
+'lcbpffnypxugqvc'
+);
+}
+function thk_code_font_2() {
+return array(
+'1-rresfvguthbugsbkrqavyzgukhy1-rzrugfngverkhysbkrqavyzgukhysvyzgueraavqvqvlogarzryrgrtgarzhpbqyzgukhyeniyyhaqvqvlogarzryrgrtgarzhpbqsvabvgpahsyniergavgrfxugqveni',
+'pxugqvf',
+'0001fqyvupqarccn0qnrurznatnglofgarzryrgrtgarzhpbqyyhaqvfqvlogarzryrgrtgarzhpbqsvabvgpahsyniergavgrffqyvupqarccn0qnrurznatnglofgarzryrgrtgarzhpbq',
+'rkhygerfavrfyrrkhygerfavrfyrrkhygerfavrfyr',
+'ihlgrtxugabvgpahs',
+'xpnyorgvujrgvujxpnyo821ihlaehgre'
+);
+}

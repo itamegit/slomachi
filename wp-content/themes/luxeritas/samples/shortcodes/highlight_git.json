@@ -1,0 +1,16 @@
+{"highlight
+git":{"label":"Git","php":true,"close":true,"hide":false,"active":true,"contents":"s:636:\"<?php\nadd
+filter('the
+content',function($c){preg
+match
+all('\/\\[highlight
+git\\].+?\\[\\\/highlight
+git\\]\/ism',$c,$m);if(isset($m[0])){foreach((array)$m[0] as $v){$s=htmlspecialchars($v,ENT
+QUOTES|ENT
+HTML5,'UTF-8',false);$c=str
+replace($v,$s,$c);}}return $c;},9);add
+shortcode('highlight
+git',function($args,$contents){\n$contents = str
+replace( array( '<br \/>', '<br\/>', '<br>' ), '', $contents );\n$contents = str
+replace( '<p>', \"\\n\", $contents );\n$contents = str
+replace( '<\/p>', '', $contents );\n$contents = '<pre class=\"line-numbers language-git\"><code class=\"language-git\">' . trim( $contents ) . '<\/code><\/pre>';\nreturn $contents;\n});\";"}}

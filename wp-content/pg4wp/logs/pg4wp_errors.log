@@ -1,0 +1,741 @@
+[1538841685.834] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1538841685.834] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1538841685.835] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841696.7787] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.1987] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.1997] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.1997] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1538841697.2007] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.2017] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.2057] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'act...
+                                 ^
+---------------------
+[1538841697.2067] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hac...
+                                 ^
+---------------------
+[1538841697.2117] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1538841697.2597] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841697.2607] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'wp_...
+                                 ^
+---------------------
+[1538841697.2617] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tem...
+                                 ^
+---------------------
+[1538841697.2617] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1538841697.2627] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'WPL...
+                                 ^
+---------------------
+[1538841697.2937] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cat...
+                                 ^
+---------------------
+[1538841697.2947] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cat...
+                                 ^
+---------------------
+[1538841697.2947] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tag...
+                                 ^
+---------------------
+[1538841697.2957] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tag...
+                                 ^
+---------------------
+[1538841697.2957] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841697.2967] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841697.2977] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841697.2977] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841697.2987] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841697.2997] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841697.2997] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.3087] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'use...
+                                 ^
+---------------------
+[1538841697.3097] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1538841697.3097] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1538841697.3107] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1538841697.3117] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1538841697.3117] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'the...
+                                 ^
+---------------------
+[1538841697.4487] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.5267] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'htm...
+                                 ^
+---------------------
+[1538841697.5277] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1538841697.5277] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'htm...
+                                 ^
+---------------------
+[1538841697.5287] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.5327] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.5337] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.5347] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841697.5357] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1538841697.5357] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1538841697.5367] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.5377] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.5387] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.5387] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.5397] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841697.5407] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841756.0991] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841756.2121] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841756.2131] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841756.2131] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1538841756.2141] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841756.2141] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841756.2161] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'act...
+                                 ^
+---------------------
+[1538841756.2171] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hac...
+                                 ^
+---------------------
+[1538841756.2201] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1538841756.2271] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841756.2281] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'wp_...
+                                 ^
+---------------------
+[1538841756.2281] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tem...
+                                 ^
+---------------------
+[1538841756.2291] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1538841756.2301] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'WPL...
+                                 ^
+---------------------
+[1538841756.2561] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cat...
+                                 ^
+---------------------
+[1538841756.2571] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cat...
+                                 ^
+---------------------
+[1538841756.2571] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tag...
+                                 ^
+---------------------
+[1538841756.2581] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tag...
+                                 ^
+---------------------
+[1538841756.2581] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841756.2591] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841756.2601] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841756.2601] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841756.2611] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841756.2621] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1538841756.2621] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841756.2711] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'use...
+                                 ^
+---------------------
+[1538841756.2721] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1538841756.2721] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1538841756.2731] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1538841756.2741] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1538841756.2741] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'the...
+                                 ^
+---------------------
+[1538841756.3191] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538841756.3521] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'htm...
+                                 ^
+---------------------
+[1538841756.3531] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1538841756.3541] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'htm...
+                                 ^
+---------------------
+[1538841756.3551] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  リレーション"wp_options"は存在しません
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1538842282.7512] Error running :
+SELECT DISTINCT meta_key
+			FROM wp_postmeta
+			WHERE meta_key NOT BETWEEN '_' AND '_z'
+			HAVING meta_key NOT LIKE '\_%'
+			ORDER BY meta_key
+			LIMIT 30
+---- converted to ----
+SELECT DISTINCT meta_key
+			FROM wp_postmeta
+			WHERE meta_key NOT BETWEEN '_' AND '_z'
+			HAVING meta_key NOT ILIKE '\_%'
+			ORDER BY meta_key
+			LIMIT 30
+----> ERROR:  列"wp_postmeta.meta_key"はGROUP BY句で出現しなければならないか、集約関数内で使用しなければなりません
+LINE 1: SELECT DISTINCT meta_key
+                        ^
+---------------------
+[1538844724.8048] Error running :
+SELECT DISTINCT meta_key
+			FROM wp_postmeta
+			WHERE meta_key NOT BETWEEN '_' AND '_z'
+			HAVING meta_key NOT LIKE '\_%'
+			ORDER BY meta_key
+			LIMIT 30
+---- converted to ----
+SELECT DISTINCT meta_key
+			FROM wp_postmeta
+			WHERE meta_key NOT BETWEEN '_' AND '_z'
+			HAVING meta_key NOT ILIKE '\_%'
+			ORDER BY meta_key
+			LIMIT 30
+----> ERROR:  列"wp_postmeta.meta_key"はGROUP BY句で出現しなければならないか、集約関数内で使用しなければなりません
+LINE 1: SELECT DISTINCT meta_key
+                        ^
+---------------------
+[1538845292.1023] Error running :
+SELECT * FROM wp_contact_form_7
+---- converted to ----
+SELECT * FROM wp_contact_form_7
+----> ERROR:  リレーション"wp_contact_form_7"は存在しません
+LINE 1: SELECT * FROM wp_contact_form_7
+                      ^
+---------------------
+[1538921722.2771] Error running :
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+---- converted to ----
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+----> ERROR:  演算子が存在しません: character varying = integer
+LINE 1: ...thor_url = 'https://wordpress.org/' AND comment_approved = 1
+                                                                    ^
+HINT:  指定名称、指定引数型に合う演算子がありません。明示的な型キャストが必要かもしれません
+---------------------

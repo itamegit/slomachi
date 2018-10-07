@@ -1,0 +1,16 @@
+{"highlight
+css":{"label":"CSS","php":true,"close":true,"hide":false,"active":true,"contents":"s:636:\"<?php\nadd
+filter('the
+content',function($c){preg
+match
+all('\/\\[highlight
+css\\].+?\\[\\\/highlight
+css\\]\/ism',$c,$m);if(isset($m[0])){foreach((array)$m[0] as $v){$s=htmlspecialchars($v,ENT
+QUOTES|ENT
+HTML5,'UTF-8',false);$c=str
+replace($v,$s,$c);}}return $c;},9);add
+shortcode('highlight
+css',function($args,$contents){\n$contents = str
+replace( array( '<br \/>', '<br\/>', '<br>' ), '', $contents );\n$contents = str
+replace( '<p>', \"\\n\", $contents );\n$contents = str
+replace( '<\/p>', '', $contents );\n$contents = '<pre class=\"line-numbers language-css\"><code class=\"language-css\">' . trim( $contents ) . '<\/code><\/pre>';\nreturn $contents;\n});\";"}}

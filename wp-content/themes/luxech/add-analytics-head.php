@@ -17,3 +17,13 @@
 /* Google Analytics(gtag.js) 等、アクセス解析の Javascript は、?> 以降に書いてください。
  (Javascript of Access analysis (Google Analytics gtag.js etc.), please write them after the below ?>. ) */
 ?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76208076-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-76208076-2');
+</script>
+

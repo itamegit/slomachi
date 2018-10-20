@@ -739,3 +739,48 @@ LINE 1: ...thor_url = 'https://wordpress.org/' AND comment_approved = 1
                                                                     ^
 HINT:  指定名称、指定引数型に合う演算子がありません。明示的な型キャストが必要かもしれません
 ---------------------
+[1539269164.5589] Error running :
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+---- converted to ----
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+----> ERROR:  演算子が存在しません: character varying = integer
+LINE 1: ...thor_url = 'https://wordpress.org/' AND comment_approved = 1
+                                                                    ^
+HINT:  指定名称、指定引数型に合う演算子がありません。明示的な型キャストが必要かもしれません
+---------------------
+[1540046029.9938] Error running :
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+---- converted to ----
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+----> ERROR:  演算子が存在しません: character varying = integer
+LINE 1: ...thor_url = 'https://wordpress.org/' AND comment_approved = 1
+                                                                    ^
+HINT:  指定名称、指定引数型に合う演算子がありません。明示的な型キャストが必要かもしれません
+---------------------
+[1540046111.5992] Error running :
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+---- converted to ----
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+----> ERROR:  演算子が存在しません: character varying = integer
+LINE 1: ...thor_url = 'https://wordpress.org/' AND comment_approved = 1
+                                                                    ^
+HINT:  指定名称、指定引数型に合う演算子がありません。明示的な型キャストが必要かもしれません
+---------------------
+[1540046280.4389] Error running :
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+---- converted to ----
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+----> ERROR:  演算子が存在しません: character varying = integer
+LINE 1: ...thor_url = 'https://wordpress.org/' AND comment_approved = 1
+                                                                    ^
+HINT:  指定名称、指定引数型に合う演算子がありません。明示的な型キャストが必要かもしれません
+---------------------
+[1540046296.1608] Error running :
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+---- converted to ----
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+----> ERROR:  演算子が存在しません: character varying = integer
+LINE 1: ...thor_url = 'https://wordpress.org/' AND comment_approved = 1
+                                                                    ^
+HINT:  指定名称、指定引数型に合う演算子がありません。明示的な型キャストが必要かもしれません
+---------------------

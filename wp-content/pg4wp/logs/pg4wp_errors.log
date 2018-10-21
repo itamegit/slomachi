@@ -847,3 +847,84 @@ LINE 1: ...thor_url = 'https://wordpress.org/' AND comment_approved = 1
                                                                     ^
 HINT:  指定名称、指定引数型に合う演算子がありません。明示的な型キャストが必要かもしれません
 ---------------------
+[1540134493.6601] Error running :
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+---- converted to ----
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+----> ERROR:  演算子が存在しません: character varying = integer
+LINE 1: ...thor_url = 'https://wordpress.org/' AND comment_approved = 1
+                                                                    ^
+HINT:  指定名称、指定引数型に合う演算子がありません。明示的な型キャストが必要かもしれません
+---------------------
+[1540134512.8522] Error running :
+SELECT DISTINCT meta_key
+			FROM wp_postmeta
+			WHERE meta_key NOT BETWEEN '_' AND '_z'
+			HAVING meta_key NOT LIKE '\_%'
+			ORDER BY meta_key
+			LIMIT 30
+---- converted to ----
+SELECT DISTINCT meta_key
+			FROM wp_postmeta
+			WHERE meta_key NOT BETWEEN '_' AND '_z'
+			HAVING meta_key NOT ILIKE '\_%'
+			ORDER BY meta_key
+			LIMIT 30
+----> ERROR:  列"wp_postmeta.meta_key"はGROUP BY句で出現しなければならないか、集約関数内で使用しなければなりません
+LINE 1: SELECT DISTINCT meta_key
+                        ^
+---------------------
+[1540134533.8164] Error running :
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+---- converted to ----
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+----> ERROR:  演算子が存在しません: character varying = integer
+LINE 1: ...thor_url = 'https://wordpress.org/' AND comment_approved = 1
+                                                                    ^
+HINT:  指定名称、指定引数型に合う演算子がありません。明示的な型キャストが必要かもしれません
+---------------------
+[1540134538.4147] Error running :
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+---- converted to ----
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+----> ERROR:  演算子が存在しません: character varying = integer
+LINE 1: ...thor_url = 'https://wordpress.org/' AND comment_approved = 1
+                                                                    ^
+HINT:  指定名称、指定引数型に合う演算子がありません。明示的な型キャストが必要かもしれません
+---------------------
+[1540134543.1529] Error running :
+SELECT DISTINCT meta_key
+			FROM wp_postmeta
+			WHERE meta_key NOT BETWEEN '_' AND '_z'
+			HAVING meta_key NOT LIKE '\_%'
+			ORDER BY meta_key
+			LIMIT 30
+---- converted to ----
+SELECT DISTINCT meta_key
+			FROM wp_postmeta
+			WHERE meta_key NOT BETWEEN '_' AND '_z'
+			HAVING meta_key NOT ILIKE '\_%'
+			ORDER BY meta_key
+			LIMIT 30
+----> ERROR:  列"wp_postmeta.meta_key"はGROUP BY句で出現しなければならないか、集約関数内で使用しなければなりません
+LINE 1: SELECT DISTINCT meta_key
+                        ^
+---------------------
+[1540134860.1931] Error running :
+SELECT DISTINCT meta_key
+			FROM wp_postmeta
+			WHERE meta_key NOT BETWEEN '_' AND '_z'
+			HAVING meta_key NOT LIKE '\_%'
+			ORDER BY meta_key
+			LIMIT 30
+---- converted to ----
+SELECT DISTINCT meta_key
+			FROM wp_postmeta
+			WHERE meta_key NOT BETWEEN '_' AND '_z'
+			HAVING meta_key NOT ILIKE '\_%'
+			ORDER BY meta_key
+			LIMIT 30
+----> ERROR:  列"wp_postmeta.meta_key"はGROUP BY句で出現しなければならないか、集約関数内で使用しなければなりません
+LINE 1: SELECT DISTINCT meta_key
+                        ^
+---------------------

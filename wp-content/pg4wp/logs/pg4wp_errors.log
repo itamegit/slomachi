@@ -928,3 +928,150 @@ SELECT DISTINCT meta_key
 LINE 1: SELECT DISTINCT meta_key
                         ^
 ---------------------
+[1540299535.1568] Error running :
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+---- converted to ----
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+----> ERROR:  演算子が存在しません: character varying = integer
+LINE 1: ...thor_url = 'https://wordpress.org/' AND comment_approved = 1
+                                                                    ^
+HINT:  指定名称、指定引数型に合う演算子がありません。明示的な型キャストが必要かもしれません
+---------------------
+[1540299582.6815] Error running :
+CREATE TABLE `wp_cbnetpo_ping_optimizer` (
+					`id` int(11) NOT NULL auto_increment,
+					`date_time` datetime NOT NULL,
+					`post_title` text, 
+					`log_data` text,
+					`type` tinyint(4) DEFAULT 1, 
+					PRIMARY KEY (`id`)
+					)
+---- converted to ----
+CREATE TABLE wp_cbnetpo_ping_optimizer (
+					id int NOT NULL DEFAULT nextval('wp_cbnetpo_ping_optimizer_seq'::text),
+					date_time timestamp NOT NULL,
+					post_title text, 
+					log_data text,
+					type tinysmallint DEFAULT 1, 
+					PRIMARY KEY (id)
+					);
+CREATE SEQUENCE wp_cbnetpo_ping_optimizer_seq;
+----> ERROR:  型"tinysmallint"は存在しません
+LINE 6:      type tinysmallint DEFAULT 1, 
+                  ^
+---------------------
+[1540299598.4854] Error running :
+SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time DESC
+---- converted to ----
+SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time DESC
+----> ERROR:  リレーション"wp_cbnetpo_ping_optimizer"は存在しません
+LINE 1: SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time D...
+                      ^
+---------------------
+[1540299609.367] Error running :
+SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time DESC
+---- converted to ----
+SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time DESC
+----> ERROR:  リレーション"wp_cbnetpo_ping_optimizer"は存在しません
+LINE 1: SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time D...
+                      ^
+---------------------
+[1540299631.4123] Error running :
+INSERT INTO wp_cbnetpo_ping_optimizer (date_time, post_title, log_data, type) 
+			          VALUES ('2018-10-23 22:00:30', '', 'http://rpc.pingomatic.com/ was successfully pinged (extended format)', '4')
+---- converted to ----
+INSERT INTO wp_cbnetpo_ping_optimizer (date_time, post_title, log_data, type) 
+			          VALUES ('2018-10-23 22:00:30', '', 'http://rpc.pingomatic.com/ was successfully pinged (extended format)', '4')
+----> ERROR:  リレーション"wp_cbnetpo_ping_optimizer"は存在しません
+LINE 1: INSERT INTO wp_cbnetpo_ping_optimizer (date_time, post_title...
+                    ^
+---------------------
+[1540299646.2321] Error running :
+CREATE TABLE `wp_cbnetpo_ping_optimizer` (
+					`id` int(11) NOT NULL auto_increment,
+					`date_time` datetime NOT NULL,
+					`post_title` text, 
+					`log_data` text,
+					`type` tinyint(4) DEFAULT 1, 
+					PRIMARY KEY (`id`)
+					)
+---- converted to ----
+CREATE TABLE wp_cbnetpo_ping_optimizer (
+					id int NOT NULL DEFAULT nextval('wp_cbnetpo_ping_optimizer_seq'::text),
+					date_time timestamp NOT NULL,
+					post_title text, 
+					log_data text,
+					type tinysmallint DEFAULT 1, 
+					PRIMARY KEY (id)
+					);
+CREATE SEQUENCE wp_cbnetpo_ping_optimizer_seq;
+----> ERROR:  型"tinysmallint"は存在しません
+LINE 6:      type tinysmallint DEFAULT 1, 
+                  ^
+---------------------
+[1540299653.2145] Error running :
+SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time DESC
+---- converted to ----
+SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time DESC
+----> ERROR:  リレーション"wp_cbnetpo_ping_optimizer"は存在しません
+LINE 1: SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time D...
+                      ^
+---------------------
+[1540299742.5186] Error running :
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+---- converted to ----
+SELECT COUNT(*) FROM wp_comments WHERE comment_author_email = 'wapuu@wordpress.example' AND comment_author = 'WordPress コメントの投稿者' AND comment_author_url = 'https://wordpress.org/' AND comment_approved = 1
+----> ERROR:  演算子が存在しません: character varying = integer
+LINE 1: ...thor_url = 'https://wordpress.org/' AND comment_approved = 1
+                                                                    ^
+HINT:  指定名称、指定引数型に合う演算子がありません。明示的な型キャストが必要かもしれません
+---------------------
+[1540299764.0349] Error running :
+CREATE TABLE `wp_cbnetpo_ping_optimizer` (
+					`id` int(11) NOT NULL auto_increment,
+					`date_time` datetime NOT NULL,
+					`post_title` text, 
+					`log_data` text,
+					`type` tinyint(4) DEFAULT 1, 
+					PRIMARY KEY (`id`)
+					)
+---- converted to ----
+CREATE TABLE wp_cbnetpo_ping_optimizer (
+					id int NOT NULL DEFAULT nextval('wp_cbnetpo_ping_optimizer_seq'::text),
+					date_time timestamp NOT NULL,
+					post_title text, 
+					log_data text,
+					type tinysmallint DEFAULT 1, 
+					PRIMARY KEY (id)
+					);
+CREATE SEQUENCE wp_cbnetpo_ping_optimizer_seq;
+----> ERROR:  型"tinysmallint"は存在しません
+LINE 6:      type tinysmallint DEFAULT 1, 
+                  ^
+---------------------
+[1540299770.6393] Error running :
+SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time DESC
+---- converted to ----
+SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time DESC
+----> ERROR:  リレーション"wp_cbnetpo_ping_optimizer"は存在しません
+LINE 1: SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time D...
+                      ^
+---------------------
+[1540299781.6749] Error running :
+SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time DESC
+---- converted to ----
+SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time DESC
+----> ERROR:  リレーション"wp_cbnetpo_ping_optimizer"は存在しません
+LINE 1: SELECT * FROM wp_cbnetpo_ping_optimizer ORDER BY date_time D...
+                      ^
+---------------------
+[1540299842.8374] Error running :
+INSERT INTO wp_cbnetpo_ping_optimizer (date_time, post_title, log_data, type) 
+			          VALUES ('2018-10-23 22:04:02', '', 'http://rpc.pingomatic.com/ was successfully pinged (extended format)', '4')
+---- converted to ----
+INSERT INTO wp_cbnetpo_ping_optimizer (date_time, post_title, log_data, type) 
+			          VALUES ('2018-10-23 22:04:02', '', 'http://rpc.pingomatic.com/ was successfully pinged (extended format)', '4')
+----> ERROR:  リレーション"wp_cbnetpo_ping_optimizer"は存在しません
+LINE 1: INSERT INTO wp_cbnetpo_ping_optimizer (date_time, post_title...
+                    ^
+---------------------
